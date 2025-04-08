@@ -40,7 +40,13 @@ git add .
 git commit -m "version3"
 </pre>
 
-![Alt text](https://github.com/AbhinavGiri21/DevOpsLabFSAI-B3/blob/2cd9edc5788a0b8ac8f79c637509abd35d05ff1c/500110031/Screenshot%202025-04-08%20105519.png)
+![Alt text](https://github.com/AbhinavGiri21/DevOpsLabFSAI-B3/blob/3fd1d9f9856d8b07e8743ec98435109aa49c3031/500110031/Screenshot%202025-04-08%20110101.png)
 
+### View all commits by using git log
 
+<pre>
+git log
+</pre>
+
+![Alt text](https://github.com/AbhinavGiri21/DevOpsLabFSAI-B3/blob/3fd1d9f9856d8b07e8743ec98435109aa49c3031/500110031/Screenshot%202025-04-08%20110101.png)
 
