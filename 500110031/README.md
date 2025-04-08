@@ -48,5 +48,12 @@ git commit -m "version3"
 git log
 </pre>
 
-![Alt text](https://github.com/AbhinavGiri21/DevOpsLabFSAI-B3/blob/3fd1d9f9856d8b07e8743ec98435109aa49c3031/500110031/Screenshot%202025-04-08%20110101.png)
+![Alt text](https://github.com/AbhinavGiri21/DevOpsLabFSAI-B3/blob/72c2390f65dc3864bc08f4b4804bf8a0131471ef/500110031/Screenshot%202025-04-08%20110320.png)
+
+## GIT SUBMODULE
+
+### CREATE THREE REPO IN GITHUB AND CLONE IT TO YOUR PC REPO1:MAIN-add index.html file->add->commit->push REPO2:CSS-add style.css file->add->commit->push REPO3:JS-add script.js file->add->commit->push
+
+### open integrated terminal of MAIN repo
+
 
