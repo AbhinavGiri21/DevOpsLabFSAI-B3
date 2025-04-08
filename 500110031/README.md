@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/0067e257-108f-474a-bb90-3ee770af88b2)## LAB-1 GIT COMMANDS
+## LAB-1 GIT COMMANDS
 
 
 ### git clone https://github.com/AbhinavGiri21/devops.git
@@ -57,5 +57,4 @@ git log
 ### open integrated terminal of MAIN repo
 
 ![Alt text](https://github.com/AbhinavGiri21/DevOpsLabFSAI-B3/blob/eb85a436eea1eea1b248ac3390424eca44426e6c/500110031/Screenshot%202025-04-08%20110921.png)
-![Alt text](https://github.com/AbhinavGiri21/DevOpsLabFSAI-B3/blob/eb85a436eea1eea1b248ac3390424eca44426e6c/500110031/Screenshot%202025-04-08%20110921.png)
-
+![Alt text](https://github.com/user-attachments/assets/0067e257-108f-474a-bb90-3ee770af88b2)
