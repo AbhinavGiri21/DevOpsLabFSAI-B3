@@ -58,3 +58,15 @@ git log
 
 ![Alt text](https://github.com/AbhinavGiri21/DevOpsLabFSAI-B3/blob/eb85a436eea1eea1b248ac3390424eca44426e6c/500110031/Screenshot%202025-04-08%20110921.png)
 ![Alt text](https://github.com/user-attachments/assets/0067e257-108f-474a-bb90-3ee770af88b2)
+
+## DOCKER
+
+<pre>
+  docker -v
+</pre>
+<pre>
+  docker pull hello-world
+</pre>
+<pre>
+  docker images
+</pre>
