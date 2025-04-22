@@ -149,13 +149,16 @@ if __name__ == "__main__":
 <pre>
 Aim:
 To automate build and deployment workflows using GitHub Actions.
+  
 Tools/Technologies Used:
 GitHub Actions, Docker
+  
 Procedure:
 1.	Created a .github/workflows directory.
 2.	Wrote a YAML workflow file to trigger Docker build on code push.
 3.	Configured build and test jobs inside the workflow.
 4.	Pushed changes to GitHub and observed automatic pipeline execution.
+  
 Output:
 Automatic building of Docker image through GitHub Actions pipeline.
 Learning/Conclusion:
@@ -167,14 +170,17 @@ Learned about CI/CD automation with GitHub Actions, reducing manual deployment e
 <pre>
 Aim:
 To automate project build and deployment using Jenkins integrated with GitHub.
+  
 Tools/Technologies Used:
 Jenkins, GitHub
+  
 Procedure:
 1.	Installed Jenkins on local server.
 2.	Configured GitHub webhook for Jenkins project.
 3.	Created a Jenkins pipeline job pulling from GitHub.
 4.	Triggered build automatically on GitHub push.
 5.	Deployed built project after pipeline success.
+  
 Output:
 Successful automated build and deployment using Jenkins pipelines.
 Learning/Conclusion:
