@@ -70,3 +70,77 @@ git log
 <pre>
   docker images
 </pre>
+![Alt text](https://github.com/AbhinavGiri21/DevOpsLabFSAI-B3/blob/14d85579e47b69497b6bff9b58ac486408f786ac/500110031/Screenshot%20from%202025-04-22%2009-11-14.png)
+<pre>
+  docker run hello-world
+</pre>
+![Alt text](https://github.com/AbhinavGiri21/DevOpsLabFSAI-B3/blob/0e64d05d3c8bb0f2928fd450a51b17a009a82bb8/500110031/Screenshot%20from%202025-04-22%2009-16-45.png)
+<pre>
+  docker run -it ubuntu
+</pre>
+![Alt text](https://github.com/AbhinavGiri21/DevOpsLabFSAI-B3/blob/9314353ff7570d8e12caff9afd75fa442f06399a/500110031/Screenshot%20from%202025-04-22%2009-18-33.png)
+
+<pre>
+  docker ps -a
+</pre>
+![Alt text](https://github.com/AbhinavGiri21/DevOpsLabFSAI-B3/blob/e2cbd5fe320ec268cbe6e343b99e245c0c6a3bc1/500110031/Screenshot%20from%202025-04-22%2009-22-21.png)
+
+<pre>
+ docker ps -a
+ docker start youthful_yonath
+ docker ps
+ docker stop b8fe5708c23b
+ docker ps
+</pre>
+![Alt text](https://github.com/AbhinavGiri21/DevOpsLabFSAI-B3/blob/aafed02e6e5d3885970c41d3516eec9268b74c6a/500110031/Screenshot%20from%202025-04-22%2009-28-28.png)
+
+## FastAPI Application with Docker Containerization
+
+<pre>
+  Purpose:
+
+  Created a simple FastAPI app with two routes:
+
+  /: Returns name and location.
+
+  /{data}: Returns a custom "hi" message with the given data and location.
+
+  Used uvicorn to run the FastAPI app on port 80 with auto-reloading enabled.
+</pre>
+
+<pre>
+  from fastapi import FastAPI
+  import uvicorn
+
+  app = FastAPI()
+
+  @app.get("/")
+  def read_root():
+      return {"name": "Sagar", "Location": "Dehradun"}
+
+  @app.get("/{data}")
+  def read_data(data: str):
+      return {"hi": data, "Location": "Dehradun"}
+
+  if __name__ == "__main__":
+      uvicorn.run("main:app", host="0.0.0.0", port=80, reload=True)
+</pre>
+
+<pre>
+from fastapi import FastAPI
+import uvicorn
+
+app = FastAPI()
+
+@app.get("/")
+def read_root():
+    return {"name": "Sagar", "Location": "Dehradun"}
+
+@app.get("/{data}")
+def read_data(data: str):
+    return {"hi": data, "Location": "Dehradun"}
+
+if __name__ == "__main__":
+    uvicorn.run("main:app", host="0.0.0.0", port=80, reload=True)
+</pre>
+![Alt text](https://github.com/AbhinavGiri21/DevOpsLabFSAI-B3/blob/4304b59872970d4dec54a037d659ddee93a551d9/500110031/Screenshot%20from%202025-04-22%2009-46-41.png)
