@@ -144,3 +144,39 @@ if __name__ == "__main__":
     uvicorn.run("main:app", host="0.0.0.0", port=80, reload=True)
 </pre>
 ![Alt text](https://github.com/AbhinavGiri21/DevOpsLabFSAI-B3/blob/4304b59872970d4dec54a037d659ddee93a551d9/500110031/Screenshot%20from%202025-04-22%2009-46-41.png)
+
+## Automation Using GitHub Actions
+<pre>
+Aim:
+To automate build and deployment workflows using GitHub Actions.
+Tools/Technologies Used:
+GitHub Actions, Docker
+Procedure:
+1.	Created a .github/workflows directory.
+2.	Wrote a YAML workflow file to trigger Docker build on code push.
+3.	Configured build and test jobs inside the workflow.
+4.	Pushed changes to GitHub and observed automatic pipeline execution.
+Output:
+Automatic building of Docker image through GitHub Actions pipeline.
+Learning/Conclusion:
+Learned about CI/CD automation with GitHub Actions, reducing manual deployment efforts.
+</pre>
+
+## Jenkins Pipeline Integration
+
+<pre>
+Aim:
+To automate project build and deployment using Jenkins integrated with GitHub.
+Tools/Technologies Used:
+Jenkins, GitHub
+Procedure:
+1.	Installed Jenkins on local server.
+2.	Configured GitHub webhook for Jenkins project.
+3.	Created a Jenkins pipeline job pulling from GitHub.
+4.	Triggered build automatically on GitHub push.
+5.	Deployed built project after pipeline success.
+Output:
+Successful automated build and deployment using Jenkins pipelines.
+Learning/Conclusion:
+Learned about continuous integration and delivery (CI/CD) concepts using Jenkins and GitHub together.
+</pre>
